@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.sc.senai.carlos.churrascometro.AboutActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:paddingBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:gravity="center"
+        android:paddingBottom="24dp"
+        android:text="@string/about_explanation"/>
+
+    <TextView
+        android:id="@+id/requisitos_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about"
+        android:paddingBottom="24dp"
+        android:text="@string/requisitos_title"/>
+
+    <TextView
+        android:id="@+id/requisitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/requisitos_title"
+        android:text="@string/requisitos"/>
+
+    <TextView
+        android:id="@+id/owner"
+        android:layout_below="@+id/requisitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:text="@string/owner"/>
+</RelativeLayout>

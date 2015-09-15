@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Churrascômetro</string>
+    <string name="title_activity_question_two"></string>
+    <string name="title_activity_question_three"></string>
+    <string name="title_activity_question_four"></string>
+    <string name="title_activity_end"></string>
+
+    <string name="about">Sobre</string>
+    <string name="owner">Desenvolvido por: Carlos Alberto Ceolato Junior</string>
+
+    <string name="question_one">Informe a quantidade de carne consumida por pessoa em gramas.</string>
+    <string name="question_two">Informe a quantidade de linguiça consumida por pessoa.</string>
+    <string name="question_three">Informe a quantidade de refrigerante consumido por pessoa em mililitros.</string>
+    <string name="question_four">Informe a quantidade de pessoas que participará da festa.</string>
+    <string name="next">Próximo</string>
+    <string name="end">FIM</string>
+
+    <string name="lista_de_compras">Lista de Compras</string>
+
+    <string name="carne">Carne(gr)</string>
+    <string name="linguica">Linguiça (qtde)</string>
+    <string name="refri">Refrigerante (ml) </string>
+
+    <string name="informe_carne">Informe a quantidade de Carne</string>
+    <string name="informe_linguica">Informe a quantidade de Linguiça</string>
+    <string name="informe_refri">Informe a quantidade de Refrigerante</string>
+    <string name="informe_pessoas">Informe a quantidade de Pessoas</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <string name="about_explanation">Trabalho 1 do Curso de Pós Graduação do SENAI</string>
+    <string name="requisitos_title">Requisitos funcionais:</string>
+    <string name="requisitos">Como usuário, desejo poder informar a qtde de gramas de carne consumida por pessoa na primeira tela, o número de linguiças consumida por pessoa na segunda tela, a qtde em mililitros de refrigerante consumido por pessoa na terceira tela e o número de pessoas que participarão do churrasco na penúltima tela. Na última tela, desejo visualizar o resultado do cálculo. O software que vocês desenvolverão hoje, deverá me informar a quantidade de cada item que devo comprar, para que não sobre muito e mais importante, que não falte.</string>
+</resources>
